@@ -22,3 +22,26 @@ function quiz(question, answer) {
     }
 }
 
+let questionList = [
+    {
+        question: 'Which Keyword create Block Scoped Variable between var and let?',
+        answer: 'let'
+    },
+    {
+        question: 'What extension use to create/save JavaScript file?',
+        answer: '.js'
+    },
+    {
+        question: 'Which Data Structure has Key Value Pairs?',
+        answer: 'object'
+    },
+    {
+        question: 'Which Data Structure you will use to make a list?',
+        answer: 'array'
+    },
+    {
+        question: 'How do you find length of a array named \'movieList\'?',
+        answer: 'movieList.length'
+    }
+]
+
