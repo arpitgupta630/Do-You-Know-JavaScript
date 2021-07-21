@@ -45,3 +45,32 @@ let questionList = [
     }
 ]
 
+for (let i=0; i<questionList.length; i++){
+    quiz(questionList[i].question, questionList[i].answer)
+    console.log('-----------------------------------------------------------------------');
+}
+
+let highScore = [
+    {
+        name: 'Arpit',
+        score: 10
+    },
+    {
+        name: 'Nitin',
+        score: 9
+    },
+]
+
+if (score < 8){
+    console.log('\nFinal Score:', score);
+    console.log('Better Luck Next Time, Keep Doing Practice');
+} else{
+    console.log('\nFinal Score:', score);
+    console.log('Amazing Work,', userName, 'Keep it up.');
+}
+
+console.log('\n:Scoreboard:\n');
+for (let i=0; i<highScore.length; i++){
+    console.log(highScore[i].name+':', highScore[i].score);
+}
+console.log(userName+':', score);
