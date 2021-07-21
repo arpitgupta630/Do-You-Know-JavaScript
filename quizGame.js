@@ -57,7 +57,7 @@ let highScore = [
     },
     {
         name: 'Nitin',
-        score: 9
+        score: 7
     },
 ]
 
@@ -69,8 +69,8 @@ if (score < 8){
     console.log('Amazing Work,', userName, 'Keep it up.');
 }
 
-console.log('\n:Scoreboard:\n');
+console.log('\n:Scoreboard:');
 for (let i=0; i<highScore.length; i++){
     console.log(highScore[i].name+':', highScore[i].score);
 }
-console.log(userName+':', score);
+console.log(userName+':', score, '\n');
